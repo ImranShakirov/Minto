@@ -1,0 +1,65 @@
+.header .container {
+    height: 130px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-self: row;
+}
+
+.image_logo {
+    height: 71px;
+    width: 71px;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.image_logo p {
+    font-size: 25px;
+    color: white;
+    line-height: 19px;
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, .5);
+    font-family: "StRyde-Regular";
+}
+
+.logo h1 {
+    margin-left: 10px;
+    font-weight: unset;
+    color: #a292b3;
+    font-size: 35px;
+}
+
+.list {
+    width: 625px;
+}
+
+.list ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list a {
+    flex-direction: row;
+    display: flex;
+}
+
+.list li p {
+    font-size: 110%;
+    margin: 0;
+    color: #545454;
+    white-space: nowrap;
+}
+
+.list img {
+    padding-right: 8px;
+    height: 20px;
+    fill: #a292b3;
+}

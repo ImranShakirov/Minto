@@ -1,0 +1,45 @@
+.footer {
+    margin-top: 60px;
+    background-image: url(img/footer\ background.png);
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer>div {
+    height: 65px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 80%;
+    color: #454242;
+}
+
+.soc_icons {
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.soc_icons div {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #82699d;
+    border-radius: 50%;
+}
+
+.soc_icons img {
+    height: 20px;
+    width: 20px;
+}

@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    border-top: 7px solid #a292b3;
+    border-bottom: 7px solid #a292b3;
+}
+
+p,
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+}
+
+@font-face {
+    font-family: "StRyde-Regular";
+    src: url("fonts/StRyde-Regular.otf");
+}
